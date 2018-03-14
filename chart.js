@@ -1,5 +1,4 @@
 // GLOBALS
-var music = new Audio ("Tiny Button Push-SoundBible.com-513260752.mp3");
 var w = 1000,h = 900;
 var padding = 2;
 var nodes = [];
