@@ -62,8 +62,6 @@ function transition(name) {
 		return partyGroup();
 	}
 	if (name === "group-by-donor-type") {
-		music.currentTime=0;
-		music.play();
 		$("#initial-content").fadeOut(250);
 		$("#value-scale").fadeOut(250);
 		$("#view-party-type").fadeOut(250);
@@ -71,9 +69,7 @@ function transition(name) {
 		$("#view-donor-type").fadeIn(1000);
 		return donorType();
 	}
-	if (name === "group-by-money-source"){
-		music.currentTime=0;
-		music.play();
+	if (name === "group-by-money-source")
 		$("#initial-content").fadeOut(250);
 		$("#value-scale").fadeOut(250);
 		$("#view-donor-type").fadeOut(250);
@@ -81,7 +77,6 @@ function transition(name) {
 		$("#view-source-type").fadeIn(1000);
 		return fundsType();
 	}
-}
 
 function start() {
 
