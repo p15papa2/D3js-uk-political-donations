@@ -396,7 +396,7 @@ function mouseover(d, i) {
     } catch (e) {
         console.log("Voice Error: " + e);
     }
-
+    $("#list").append("<li><img src='" + imageFile + "' height='42' width='42' onError='this.src=\"https://github.com/favicon.ico\";'></li>");
 }
 
 function mouseout() {
